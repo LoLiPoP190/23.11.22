@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid black;
+}
+.mini{
+  flex: 0 0 33%;
+}
+.big{
+  flex: 0 0 63%;
+}
+.box{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}

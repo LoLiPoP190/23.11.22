@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.container{
+  box-shadow: 5px 5px 5px black;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.nav{
+  flex: 0 0 100%;
+}
+.main{
+  flex: 1 1 0;
+}
+.box{
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px black;
+}
