@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 980px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+.box{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+.aside{
+  flex: 0 0 200px;
+}
+.main{
+  flex: 1 1 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mini{
+  flex: 0 0 20%;
+}
+.big{
+  flex: 0 0 75%;
+}
